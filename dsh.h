@@ -7,4 +7,8 @@
 
 #define MAXBUF 256
 
-// TODO: Your function prototypes below
+void dsh();
+int execCommand(char* command);
+int execAbsoluteCommand(char* command, char** args);
+int pathExists(char* path);
+int execAbsoluteCommandString(char *absPath, char *command);
